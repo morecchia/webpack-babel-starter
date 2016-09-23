@@ -51,12 +51,6 @@ app.get('/', (req,res) => {
 // Modules
 
 // ------------------------------
-// Socket
-io.on('connection', socket => {
-  console.log(`Client connected on ${socket.request.connection.remoteAddress}`);
-});
-
-// ------------------------------
 // Startup
 const port = process.env.NODE_ENV.port || 3000;
 function startServer() {
