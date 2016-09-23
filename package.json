@@ -1,8 +1,9 @@
 {
-  "name": "04-server-skeleton",
+  "name": "webpack-babel-starter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Starter template for a javascript (Express/Jade) app, built with webpack, babel, and gulp.",
+  "main": "server.js",
+  "repository": "https://github.com/tonefolder/webpack-babel-starter",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node build/server",
