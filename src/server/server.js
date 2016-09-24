@@ -7,7 +7,6 @@ import chalk from 'chalk';
 // Setup
 const app = express(),
   server = http.Server(app),
-  io = socketio(server),
   isDevelopment = process.env.NODE_ENV !== 'production';
 
 // ------------------------------

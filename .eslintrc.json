@@ -1,0 +1,38 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "ecmaFeatures": {
+        "templateStrings": true
+    },
+    "rules": {
+        "indent": [
+            "error", 2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-unused-vars": [
+            2,
+            {
+                "vars": "local",
+                "args": "none"
+            }],
+        "no-console": 0
+    },
+    "globals": {
+        "Exceptions": false
+    }
+}
